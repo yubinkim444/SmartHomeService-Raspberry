@@ -17,9 +17,9 @@
 #define TEMP 1
 #define HUMD 2
 #define LUX 3
-#define DBHOST "127.0.0.1"
-#define DBUSER "root"
-#define DBPASS "dbqls1004"
+#define DBHOST "hostIp"
+#define DBUSER "user"
+#define DBPASS "password"
 #define DBNAME "smartsensor"
 extern pthread_mutex_t mutexLock;
 class Server{
