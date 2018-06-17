@@ -1,6 +1,6 @@
 /*----------------------------------------------------------------------------------------------
-ÆÄÀÏ¸í : TCP_server.h
-±â ´É : ¼­¹öÀü¿ë Çì´õ
+íŒŒì¼ëª… : TCP_server.h
+ê¸° ëŠ¥ : ì„œë²„ì „ìš© í—¤ë”
 ----------------------------------------------------------------------------------------------*/
 #ifndef MANAGER_H_
 #define MANAGER_H_
@@ -31,9 +31,9 @@
 #define SUMMER 2
 #define WINTER 3
 //-------------------ServerCommuni-----------
-#define DBHOST "220.76.187.135"
-#define DBUSER "root"
-#define DBPASS "dbqls1004"
+#define DBHOST "hostIp"
+#define DBUSER "user"
+#define DBPASS "password"
 #define DBNAME "SmartHomeServer"
 extern pthread_mutex_t mutexLock;
 class Manager{
